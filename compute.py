@@ -19,8 +19,7 @@ def myadd(a, b):
             return a + b
 
     return 0
-
-
+    
 def mymult(a, b):
 
     if a > 0 and b > 0:
@@ -42,3 +41,6 @@ def mymult(a, b):
         return 0
 
     return -100
+
+def mymax(a,b):
+    return 0

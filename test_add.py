@@ -22,7 +22,7 @@ class TestMyAdd(unittest.TestCase):
 
     def test_add_b0(self):
         val = myadd(2, 0)
-        self.assertTrue(2, val)
+        self.assertEqual(2, val)
 
     def test_add_pn_a_gt_b(self):
         val = myadd(4, -1)
